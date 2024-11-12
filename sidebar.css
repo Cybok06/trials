@@ -1,0 +1,44 @@
+.sidebar{
+display: flex;
+position: fixed;
+bottom: 0px;
+top: 80px;
+width: 250px;
+border-right: 1px  solid black; 
+flex-direction: column;
+display: flex;
+}
+.first-paragraph{
+margin-top:20px;
+font-size: 19px;
+}
+.second-paragraph{
+margin-top: 20px; 
+color: rgb(23, 33, 130); 
+font-weight: 700; 
+font-size: 30px;
+}
+.third-paragraph{
+font-size: 20px;
+margin-top: 20px;
+font-weight: 700;
+}
+.available-networks{
+width: 100%;
+}
+.networks{
+	color: darkgreen;
+}
+.get-started{
+text-decoration: none;
+background-color:none;
+margin:15px 50px;
+font-size: 17px;
+font-weight: bold;
+color: white;
+background: rgb(255, 105, 132);
+padding: 18px 50px 18px 50px;
+font-family: arial;
+border-radius: 10px;
+margin-left: 40px;
+box-shadow: 20px 20px 30px  rgba(0,0.5,0.5,0.20);

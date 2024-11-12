@@ -1,0 +1,75 @@
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 80px;
+	align-items: center;
+	border-bottom: 1px  solid black;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	left: 0px;
+	background: white;
+
+}
+.logo{
+border-radius: 5px;
+box-shadow: 20px 20px 30px  rgba(0,0.5,0.5,0.20);
+}
+
+.first-section{
+width: 200px;
+margin-left: 50px;
+display: flex;
+}
+.middle-section{
+	display: flex;
+	flex: 1;
+	max-width: 300px;
+	margin-left: 35px;
+	margin-right: 70px;
+
+}
+.end-section{
+	display: flex;
+margin-right: 70px;
+flex-shrink: 0;
+}
+.header-link1{
+text-decoration: none;
+margin: 15px 15px;
+font-size: 18px;
+font-weight: bold;
+color: black;
+}
+.header-link2{
+text-decoration: none;
+margin: 15px 15px;
+font-size: 18px;
+font-weight: bold;
+color: black;
+}
+.header-link3{
+text-decoration: none;
+background-color:none;
+margin:15px 15px;
+font-size: 18px;
+font-weight: bold;
+color: black;
+}
+.header-link4{
+text-decoration: none;
+background-color:none;
+margin:15px 50px;
+font-size: 17px;
+font-weight: bold;
+color: white;
+background: rgb(255, 105, 132);
+padding: 18px 50px 18px 50px;
+font-family: arial;
+border-radius: 10px;
+margin-left: 40px;
+box-shadow: 20px 20px 30px  rgba(0,0.5,0.5,0.20);
+
+
+}
